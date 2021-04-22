@@ -33,6 +33,8 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 movement = new Vector3(hAxis, 0,vAxis) * speed * Time.fixedDeltaTime;
         Vector3 newPosition = rb.position + rb.transform.TransformDirection(movement);
         rb.MovePosition(newPosition);
+
+
         
     }
     private void Jump()
