@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+[CreateAssetMenu(fileName = "New Fun", menuName = "Gun")]
+public class Gun : ScriptableObject
+{
+    public string gunName;
+    
+    
+    [Header("Stats")]
+    public int minimumDamage;
+    public int maximumDamage;
+    public float maximumRange;
+    
+}
