@@ -5,8 +5,9 @@ using UnityEngine;
 public class Gun : ScriptableObject
 {
     public string gunName;
-    
-    
+    public GameObject gunPrefab;
+
+
     [Header("Stats")]
     public int minimumDamage;
     public int maximumDamage;

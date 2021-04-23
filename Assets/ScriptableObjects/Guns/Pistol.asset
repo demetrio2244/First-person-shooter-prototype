@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ac0a3fa3d1b4d43b0d8b99b5f3415e, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
-  gunName: Pistol
+  gunName: Smg Weapon
+  gunPrefab: {fileID: 5640126951274664217, guid: e6ac52be2ddb93d48a358cd6d0ebd25e, type: 3}
   minimumDamage: 25
   maximumDamage: 25
   maximumRange: 35
