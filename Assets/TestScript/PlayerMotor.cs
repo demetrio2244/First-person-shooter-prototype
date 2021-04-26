@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class PlayerMotor : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    float moveSpeed = 4;
+    float gravity = 6;
+
+    Vector3 moveDirection;
+    CharacterController controller;
+
+    void start()
     {
-        
+        controller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void update()
     {
+        move();
+
+
+    }
+
+    void move()
+    {
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+        if (controller.isGrounded)
+        {
+            moveDirection = new Vector3(moveX, 0, moveZ);
+            moveDirection *= moveSpeed;
+
+        }
+        moveDirection.y -= gravity;
+        controller.Move(moveDirection * Time.deltaTime);
         
     }
 }
