@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerCameraController : MonoBehaviour
 {
+
+    //------------------------ OLD CODE----------------------------------------------------------------------
     [SerializeField] private float lookSensitivity;
     [SerializeField] private float smoothing;
 

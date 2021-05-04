@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour
 {
+    // -----------------------Old Code ----------------------------------------------
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     [SerializeField] private float JumpRaycastDistance;
