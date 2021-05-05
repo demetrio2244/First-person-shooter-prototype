@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pistol
   m_EditorClassIdentifier: 
   gunName: Smg Weapon
-  gunPrefab: {fileID: 5640126951274664217, guid: e6ac52be2ddb93d48a358cd6d0ebd25e, type: 3}
+  gunPrefab: {fileID: 1943937368551559418, guid: 775401e28894ae54f94a42397652654b, type: 3}
   minimumDamage: 25
   maximumDamage: 25
   maximumRange: 35
