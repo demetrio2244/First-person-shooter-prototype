@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AK47
   m_EditorClassIdentifier: 
   gunName: ak47
-  gunPrefab: {fileID: 1441277103787617710, guid: a9d19b56673078641a4a6bc1c5f0af0b, type: 3}
+  gunPrefab: {fileID: 1385485184604818177, guid: 0c9c4c0eea80c454381135ba2c4f0c26, type: 3}
   minimumDamage: 60
   maximumDamage: 60
   maximumRange: 50
